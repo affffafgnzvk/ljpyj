@@ -1,0 +1,482 @@
+.top{
+    width: 100%;
+    height:42px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.top .left{
+    text-align: center;
+    width:238px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+
+}
+.top .left .left1{
+    width: 56px;
+    height: 100%;
+    background: url("../img/index/arrow_down.png") no-repeat right center;
+    background-size: 8px 5px;
+    display: block;
+    font-size: 12px;
+    line-height: 42px;
+    text-align: center;
+}
+.top .left .left2{
+    margin-left:3px;
+    width: 86px;
+    height: 13px;
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 42px;
+    border-left: 1px solid #333;
+    justify-content: center;
+}
+.top .right {
+    width: 148px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top .right .right1{
+    width: 66px;
+    height:20px;
+    display: block;
+    font-size: 13px;
+    color: #161618;
+    text-align: center;
+}
+.top .right .right2{
+    width: 28px;
+    height: 25px;
+    display: block;
+}
+.top .right .right2 .iconfont{
+    color: #333;
+    font-size: 16px;
+}
+
+.logo{
+    width: 100%;
+    height: 43px;
+}
+
+.logo a .img{
+    width: 175px;
+    height: 28px;
+    display: block;
+    margin: 0 auto;
+}
+.daohao{
+    width: 100%;
+    height:43px;
+    display: flex;
+    justify-content: center;
+}
+.daohao .a{
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #333;
+    line-height: 45px;
+}
+.banner{
+    width: 100%;
+    height:647px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 647px;
+}
+.banner .banner1{
+    width:960px;
+    height: 65px;
+    position: absolute;
+    top: 40%;
+    left:10%;
+}
+.banner .banner1 .p1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.banner .banner1 .p2{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.daohang{
+    width: 1100px;
+    height: 82px;
+    margin: 0 auto;
+}
+.daohang .p{
+    font-size: 12px;
+    color:#414040;
+    line-height: 82px;
+}
+.bottom{
+    width: 1100px;
+    height: 1010px;
+    margin: 0 auto;
+
+}
+.bottom .f{
+    width: 1100px;
+    height: 490px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .f .left{
+    width: 652px;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+.bottom .f .right{
+    width: 440px;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+.bottom .f .left img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 1;
+}
+.bottom .f .left img:hover{
+    opacity: 0.8;
+}
+.bottom .f .right img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 1;
+}
+.bottom .f .right img:hover{
+    opacity: 0.8;
+}
+.bottom .f .left .p{
+    width:100% ;
+    height: 56px;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .f .left .p .p1{
+    font-size:30px;
+    color: #fff;
+    display: block;
+}
+.bottom .f .left .p .p2{
+    font-size: 24px;
+    display: block;
+    color: #fff;
+    font-weight: 400;
+}
+.bottom .f .right .p{
+    width:100% ;
+    height: 56px;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .f .right .p .p1{
+    font-size:30px;
+    color: #fff;
+    display: block;
+}
+.bottom .f .right .p .p2{
+    font-size:24px;
+    color: #fff;
+    display: block;
+}
+.tuijian{
+    width: 100%;
+    height: 64px;
+}
+.tuijian .top{
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+}
+.tuijian .top .p1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tuijian .up{
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+}
+.shop{
+    width: 1100px;
+    height: 265px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.shop .shoplan{
+    width: 366px;
+    height: 265px;
+}
+
+.shop .left{
+    display: block;
+    width:22px ;
+    height: 43px;
+    position:absolute ;
+    left:0px;
+    top: 50%;
+}
+.shop .left1{
+    display: block;
+    width:22px ;
+    height: 43px;
+    position:absolute ;
+    left:0px;
+    top: 50%;
+    display: none;
+}
+.shop .right{
+    display: block;
+    width:22px ;
+    height: 43px;
+    position:absolute ;
+    right:0px;
+    top: 50%;
+}
+.shop .right1{
+    display: block;
+    width:22px ;
+    height: 43px;
+    position:absolute ;
+    right:0px;
+    top: 50%;
+    display: none;
+}
+.shop .right:hover .right1{
+    display: block;
+}
+.shop .left:hover .left1{
+    display: block;
+}
+.shop .shoplan .top{
+    width: 366px;
+    height:236px;
+    display: flex;
+    flex-direction: column;
+    display: block;
+}
+.shop .shoplan .top .pic{
+    max-height: 190px;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.shop .shoplan .top .wz1{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+    font-family: apa,"Microsoft YaHei";
+    height: 23px;
+    line-height: 30px;
+}
+.shop .shoplan .bottom{
+    width: 100%;
+    height:29px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.shop .shoplan .bottom .dian{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #333;
+    margin-left: 4px;
+}
+.shop .left{
+    width: 22px;
+    height: 43px;
+}
+.guanggao{
+    width: 100%;
+    height: 461px;
+    margin-top: 150px;
+}
+.guanggao img{
+    width: 100%;
+    height: 461px;
+    opacity: 1;
+}
+.guanggao img:hover{
+    opacity: 0.8;
+}
+.foot{
+    width: 100%;
+    height: 335px;
+    background: #ededed;
+    margin-top: 150px;
+}
+.foot .z{
+    width: 1100px;
+    height: 335px;
+    margin: 0 auto;
+    position: relative;
+}
+.foot .z .left{
+    width: 682px;
+    height: 110px;
+    display: flex;
+    position: absolute;
+    top:50px;
+    float: left;
+}
+.foot .z .left .dl{
+    display: block;
+    margin-right: 150px;
+}
+dd{
+    font-size: 12px;
+    height: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 20px;
+}
+dd:hover{
+    color: #7c7c7c;
+}
+dd .iconfont{
+    color: #9d9d9d;
+    font-size: 14px;
+}
+dd .wx{
+    color: #333;
+}
+dd .wx:hover{
+    color: #7c7c7c;
+}
+.foot .z .right{
+    width: 386px;
+    height: 272px;
+    float: right;
+    border-left: 1px solid #d5d5d5;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.foot .z .right .right1{
+    width: 254px;
+    height: 85px;
+    margin-left: 132px;
+    border-bottom: 50px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.foot .z .right .right1 p{
+    font-size: 15px;
+    color: #333;
+    line-height: 30px;
+    width: 100%;
+    font-family: h60s,"Microsoft YaHei";
+}
+.foot .z .right .right1 .email{
+    width: 100%;
+    height: 40px;
+    background: #d9d9d9;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.foot .z .right .right1 .go{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url(../img/index/go.png) no-repeat;
+    background-size: 100% 100%;
+}
+.foot .z .right .right1 .email input{
+    height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+    border: 0 none;
+    background: #d9d9d9;
+}
+.foot .z .right .right1 h4{
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 45px;
+    display: block;
+    font-family: h60s,"Microsoft YaHei";
+}
+.foot .z .right .right1 .store{
+    width: 100%;
+    height: 40px;
+    background: #d9d9d9;
+    position: relative;
+}
+.foot .z .right .right1 .store img{
+    width: 10px;
+    height: 15px;
+    float: left;
+    display: inline-block;
+    margin: 12px 5px;
+    margin-left: 14px;
+    margin-right: 0;
+}
+.foot .z .right .right1 .store input{
+    height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: "Microsoft YaHei";
+    outline: none;
+    border: 0 none;
+    background: #d9d9d9;
+}
+.foot  .z .footer_p{
+    position: absolute;
+    bottom: 10px;
+    left:0px ;
+    font-size: 8px;
+    color: #333;
+}
